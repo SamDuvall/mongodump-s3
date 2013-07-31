@@ -1,0 +1,24 @@
+{
+  "name"          : "mongodump-s3",
+  "version"       : "0.1.0",
+  "license"       : "MIT",
+  "keywords"      : ["mongodb", "mongodump", "s3", "aws"],
+  "repository"    : "https://github.com/SamDuvall/mongodump-s3.git",
+  "author"        : "Sam Duvall <https://github.com/SamDuvall>",
+  "main"          : "index.js",
+
+  "dependencies"  : {
+    "underscore": "1.5.x",
+    "promised-io": "0.3.x",
+    "aws-sdk": "1.3.x"
+  },
+
+  "devDependencies": {
+    "expect.js": "0.2.x",
+    "mocha": "1.6.0"
+  },
+
+  "scripts":{
+    "test": "mocha"
+  }
+}
