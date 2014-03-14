@@ -1,6 +1,6 @@
 {
   "name"          : "mongodump-s3",
-  "version"       : "0.1.0",
+  "version"       : "0.1.1",
   "license"       : "MIT",
   "description"   : "Dumps mongodb to aws s3 via mongodump",
   "keywords"      : ["mongodb", "mongodump", "s3", "aws"],
